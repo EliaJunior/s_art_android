@@ -45,6 +45,7 @@ header {
 
 header nav h1 {
     font-family: var(--fontsprincipais);
+    font-weight: normal;
     font-size: 3em;
     margin: 0;
     color: white;
@@ -54,6 +55,7 @@ header nav h1 {
 
 header nav h2 {
     font-family: var(--fontsprincipais);
+    font-weight: normal;
     color: white;
     margin: 0;
     text-shadow: 7px 10px 3px rgba(0, 0, 0, 0.274);
@@ -170,7 +172,7 @@ a.externlink::after {
 }
 
 #videoframe {
-    background-color: #09823e;
+    background-color: var(--cor02);
     padding: 20px;
 }
 
