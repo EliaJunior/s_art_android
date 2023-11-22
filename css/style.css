@@ -28,7 +28,7 @@
     --cor03:#96BF3D;
     --cor04:#31332D;
     --cor05:#2E3323;
-    --cor01clara:#b2d16f0a;
+    --cor01clara:#b2d16fae;
 }
 
 body {
@@ -104,8 +104,7 @@ header nav h2 {
 }
 
 .titulo2 {
-    background-image: linear-gradient(to right,var(--cor01clara), white);
-    background-color: #28a15c8b;
+    background-image: linear-gradient(to right,var(--cor01clara), transparent);
 }
 
 .titulo1 {
@@ -127,7 +126,8 @@ header nav h2 {
     padding-right: 20px;
     text-align: justify;
     text-indent: 30px;
-    line-height: 1em;
+    line-height: 1.5em;
+    font-size: 1.1em;
 }
 
 .conteudomidia {
@@ -144,6 +144,8 @@ header nav h2 {
 
 .destaquepalavra {
     color: var(--cor01);
+    background-color: #96bf3d80;
+    padding: 2px;
 }
 
 .externlink {
@@ -154,8 +156,9 @@ header nav h2 {
 
 .externlink:hover {
     background-color: #28A15D;
-    color: black;
+    color: white;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .externlink:active {
@@ -211,4 +214,16 @@ footer {
     color: white;
     text-align: center;
     font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    background-color: #28A15D;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
 }
